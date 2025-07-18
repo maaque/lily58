@@ -46,7 +46,7 @@
 &kp DE_CARET &kp DE_AT       &trans    &kp DE_EURO &kp DE_SQT &kp DE_DQT                         &trans    &kp DE_U_UMLAUT &trans  &kp DE_O_UMLAUT &trans  &kp DE_ACUTE
 &trans       &kp DE_A_UMLAUT &kp DE_SZ &trans      &trans     &trans                             &kp LEFT  &kp DOWN        &kp UP  &kp RIGHT       &trans  &kp DE_BSLH
 &trans       &trans          &trans    &trans      &trans     &trans     &kp DE_LBRC &kp DE_RBRC &kp DE_LT &kp DE_TILDE    &trans  &trans          &trans  &kp DE_PIPE
-                                       &trans      &trans     &trans     &kp K_LOCK    &trans      &kp HOME  &kp DEL         &kp END
+                                       &trans      &trans     &trans     &kp C_AL_LOCK    &trans      &kp HOME  &kp DEL         &kp END
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
