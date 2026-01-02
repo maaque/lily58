@@ -27,6 +27,10 @@ Mediakeys darunter.
 
 Die Numpadtasten finden sich auf der rechten Seite mithilfe des UPPER-Modifiers.
 
+### Lock
+
+Eine Lock-Taste (Bildschirmsperre) befindet sich auf der linken unteren Innentaste mit dem LOWER-Modifier.
+
 ---
 
 # English Version
@@ -57,3 +61,7 @@ Media keys are below that.
 ### Numpad
 
 The numpad keys can be found on the right side using the UPPER modifier.
+
+### Lock
+
+A lock key (screen lock) is located on the lower left inner key with the LOWER modifier.
