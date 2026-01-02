@@ -65,3 +65,9 @@ The numpad keys can be found on the right side using the UPPER modifier.
 ### Lock
 
 A lock key (screen lock) is located on the lower left inner key with the LOWER modifier.
+
+# References
+
+https://zmk.dev/docs/keymaps/list-of-keycodes
+
+https://github.com/joelspadin/zmk-locales
