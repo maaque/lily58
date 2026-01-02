@@ -1,6 +1,6 @@
 # Programmiererfreundliches QWERTZ-inspiriertes Lily58 Layout
 
-[English version below](#english-version)
+[English version below](#english-version) | [Keymaps](#keymaps)
 
 Dieses Layout versucht eine programmiererfreundliche Version des QWERTZ-Layouts für das Lily58 abzubilden.
 
@@ -30,6 +30,45 @@ Die Numpadtasten finden sich auf der rechten Seite mithilfe des UPPER-Modifiers.
 ### Lock
 
 Eine Lock-Taste (Bildschirmsperre) befindet sich auf der linken unteren Innentaste mit dem LOWER-Modifier.
+
+### Cut, Copy, Paste
+
+Cut, Copy und Paste sind auf LOWER + X, C, V verfügbar und funktionieren plattformübergreifend.
+
+## Keymaps
+
+### Base Layer
+
+```
+// ------------------------------------------------------------------------------------------------------------
+// |  ESC  |  1  |  2  |  3   |  4   |  5   |                   |  6   |  7    |  8    |  9   |   0   |   ß   |
+// |  TAB  |  Q  |  W  |  E   |  R   |  T   |                   |  Z   |  U    |  I    |  O   |   P   |   +   |
+// |  CTRL |  A  |  S  |  D   |  F   |  G   |                   |  H   |  J    |  K    |  L   |   #   |   /   |
+// | SHIFT |  Y  |  X  |  C   |  V   |  B   |   "("  |  |  ")"  |  N   |  M    |  ,    |  .   |   -   | SHIFT |
+//                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
+```
+
+### Lower Layer
+
+```
+// -------------------------------------------------------------------------------------------------------------
+// |  F1   |  F2 |  F3 |  F4  |  F5  |  F6  |                  |  F7   |  F8   |  F9   |  F10  |  F11  |  F12  |
+// |  ^    |  @  |     |  €   |  '   |  "   |                  |       |  Ü    |       |  Ö    |       |   `   |
+// |       |  Ä  |  ß  |      |      |      |                  |  <-   |  v    |  ^    |  ->   |       |   \   |
+// |       |     | CUT | COPY | PASTE|      |  "{"  |  |  "}"  |  <    |  ~    |       |       |       |  "|"  |
+//                     |      |      |      |  LOCK |  |       |  HOME |  DEL  |  END  |
+```
+
+### Raise Layer
+
+```
+// -----------------------------------------------------------------------------------------------------------
+// | BTCLR | BT1         | BT2       |  BT3     |  BT4       |  BT5 |                 |           |   7   |   8   |   9   |   /   |      |
+// |  MUTE | VOLUME_DOWN | VOLUME_UP | PREVIOUS | PLAY_PAUSE | NEXT |                 |   0       |   4   |   5   |   6   |   *   |      |
+// |   F1  |  F2         |  F3       |  F4      |  F5        |  F6  |                 | PAGE_UP   |   1   |   2   |   3   |   -   |      |
+// |   F7  |  F8         |  F9       |  F10     |  F11       |  F12 |  "[" |  |  "]"  | PAGE_DOWN | ENTER |   ,   |   .   |   +   |      |
+//                       |           |          |            |      |      |  |       |           |       |
+```
 
 ---
 
@@ -65,6 +104,10 @@ The numpad keys can be found on the right side using the UPPER modifier.
 ### Lock
 
 A lock key (screen lock) is located on the lower left inner key with the LOWER modifier.
+
+### Cut, Copy, Paste
+
+Cut, Copy, and Paste are available on LOWER + X, C, V and work cross-platform.
 
 # References
 
