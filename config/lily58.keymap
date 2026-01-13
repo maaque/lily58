@@ -37,15 +37,16 @@
 // -------------------------------------------------------------------------------------------------------------
 // |  F1   |  F2 |  F3 |  F4  |  F5  |  F6  |                  |  F7   |  F8   |  F9   |  F10  |  F11  |  F12  |
 // |  ^    |  @  |     |  €   |  '   |  "   |                  |       |  Ü    |       |  Ö    |       |   `   |
-// |       |  Ä  |  ß  |      |      |      |                  |  <-   |  v    |  ^    |  ->   |       |   \   |
-// |       |     | CUT | COPY | PASTE|      |  "{"  |  |  "}"  |  <    |  ~    |       |       |       |  "|"  |
+// | CTRL  |  Ä  |  ß  |      |      |      |                  |  <-   |  v    |  ^    |  ->   |       |   \   |
+// | SHIFT |     | CUT | COPY | PASTE|      |  "{"  |  |  "}"  |  <    |  ~    |       |       |       |  "|"  |
 //                     |      |      |      |  LOCK |  |       |  HOME |  DEL  |  END  |
+```
             display-name = "Lower";
             bindings = <
 &kp F1       &kp F2          &kp F3    &kp F4      &kp F5     &kp F6                             &kp F7    &kp F8          &kp F9  &kp F10         &kp F11 &kp F12
 &kp DE_CARET &kp DE_AT       &trans    &kp DE_EURO &kp DE_SQT &kp DE_DQT                         &trans    &kp DE_U_UMLAUT &trans  &kp DE_O_UMLAUT &trans  &kp DE_GRAVE
-&trans       &kp DE_A_UMLAUT &kp DE_SZ &trans      &trans     &trans                             &kp LEFT  &kp DOWN        &kp UP  &kp RIGHT       &trans  &kp DE_BSLH
-&trans       &trans          &kp K_CUT &kp K_COPY  &kp K_PASTE &trans    &kp DE_LBRC &kp DE_RBRC &kp DE_LT &kp DE_TILDE    &trans  &trans          &trans  &kp DE_PIPE
+&kp LCTRL    &kp DE_A_UMLAUT &kp DE_SZ &trans      &trans     &trans                             &kp LEFT  &kp DOWN        &kp UP  &kp RIGHT       &trans  &kp DE_BSLH
+&kp LSHFT    &trans          &kp K_CUT &kp K_COPY  &kp K_PASTE &trans    &kp DE_LBRC &kp DE_RBRC &kp DE_LT &kp DE_TILDE    &trans  &trans          &trans  &kp DE_PIPE
                                        &trans      &trans     &trans     &kp C_AL_LOCK    &trans      &kp HOME  &kp DEL         &kp END
             >;
 
