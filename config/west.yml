@@ -7,10 +7,10 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: v0.3
       import: app/west.yml
     - name: zmk-locales
       remote: locales
-      revision: v0.3
+      revision: v1.1.0
   self:
     path: config
